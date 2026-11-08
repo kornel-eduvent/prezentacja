@@ -1,0 +1,47 @@
+Prezentacja
+
+
+
+
+
+Czym jest Eduvent?
+
+  Pierwsza w Polsce platforma do wyszukiwania i rezerwacji wydarzeń edukacyjnych dla szkół i przedszkoli.
+  Łączymy placówki oświatowe z organizatorami warsztatów, spektakli, pokazów i zajęć edukacyjnych.
+  Umożliwiamy szybkie porównanie ofert i rezerwację terminów w jednym miejscu.
+  Korzystanie z platformy jest całkowicie bezpłatne dla nauczycieli i placówek.
+Czym się zajmujemy?
+
+  Digitalizujemy proces organizacji wydarzeń edukacyjnych.
+  Weryfikujemy organizatorów, dbając o jakość i bezpieczeństwo oferowanych usług.
+  Ułatwiamy współpracę pomiędzy szkołami, przedszkolami a firmami edukacyjnymi.
+  Oszczędzamy czas nauczycieli i dyrektorów poprzez automatyzację procesu wyszukiwania i rezerwacji.
+Problem, który rozwiązujemy
+
+  Rozproszenie rynku - Rynek wydarzeń edukacyjnych jest bardzo rozproszony. Nauczyciele i dyrektorzy są zmuszeni samodzielnie wyszukiwać oferty w internecie, mediach społecznościowych lub korzystać z przypadkowych poleceń.
+  Czasochłonny proces - Organizacja warsztatów czy spektakli wymaga wielu telefonów, wiadomości i ustaleń dotyczących terminów, cen oraz dostępności.
+  Brak jednego zaufanego miejsca - Nie istnieje centralna platforma, która umożliwia łatwe porównanie ofert, sprawdzenie organizatorów i wygodną rezerwację wydarzeń.
+Korzyści dla szkół i przedszkoli
+
+  Bezpłatny dostęp do platformy i wszystkich funkcji rezerwacji.
+  Wszystkie wydarzenia w jednym miejscu – warsztaty, spektakle, pokazy i zajęcia edukacyjne.
+  Szybka i wygodna rezerwacja online bez zbędnych formalności.
+  Oszczędność czasu dzięki łatwemu wyszukiwaniu i porównywaniu ofert.
+  Zweryfikowani organizatorzy, gwarantujący wysoki standard i bezpieczeństwo usług.
+  Bogata oferta dopasowana do różnych grup wiekowych i programów nauczania.
+  Bezpośredni kontakt z organizatorami oraz szybkie potwierdzanie terminów.
+  Możliwość odkrywania nowych atrakcji edukacyjnych, które wcześniej były trudno dostępne.
+  Przejrzysty proces rezerwacji i pełna historia zgłoszeń w jednym miejscu.
+  Wsparcie zespołu Eduvent na każdym etapie organizacji wydarzenia.
+Co udało nam się osiągnąć w pierwszym roku działalności?
+
+  Ponad 80 zarejestrowanych szkół i przedszkoli z całej Polski.
+  Ponad 100 leadów – placówek zainteresowanych współpracą w kolejnym roku szkolnym.
+  300 aktywnych ofert wydarzeń edukacyjnych dostępnych na platformie.
+  20 zrealizowanych rezerwacji za pośrednictwem Eduvent w roku szkolnym 2025/2026.
+  Ponad 86 000 zł wartości zrealizowanych rezerwacji (GMV).
+  100% pozytywnych opinii od szkół, przedszkoli i organizatorów korzystających z platformy.
+  Ogólnopolski zasięg – użytkownicy i organizatorzy z wielu regionów Polski.
+  Zweryfikowana sieć organizatorów oferujących warsztaty, spektakle i zajęcia edukacyjne.
+  Działający produkt (MVP) wykorzystywany przez realnych użytkowników.
+  Potwierdzenie potrzeby rynkowej – pierwsze placówki i firmy aktywnie korzystają z platformy, potwierdzając zasadność cyfryzacji procesu rezerwacji wydarzeń edukacyjnych.

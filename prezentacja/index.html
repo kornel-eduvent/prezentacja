@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eduvent — Prezentacja</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/theme/white.css">
+  <link rel="stylesheet" href="css/eduvent-theme.css">
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+
+<!-- ============================================================ -->
+<!-- SLAJD 1 — EDUVENT + PROBLEM                                  -->
+<!-- ============================================================ -->
+<section>
+  <div style="text-align: center; margin-bottom: 16px;">
+    <div style="font-size: 2em; font-weight: 700; color: var(--eduvent-cyan); letter-spacing: -2px; margin-bottom: 8px;">eduvent</div>
+    <h2 style="margin-bottom: 0.15em; font-size: 1.35em;">Pierwsza platforma do rezerwacji<br>wydarzeń edukacyjnych</h2>
+    <p style="font-size: 0.72em; color: var(--eduvent-gray); max-width: 800px; margin: 0 auto;">
+      Łączymy szkoły i przedszkola z organizatorami warsztatów, spektakli i zajęć edukacyjnych. Korzystanie z platformy jest <strong style="color: var(--eduvent-cyan);">bezpłatne dla placówek</strong>.
+    </p>
+  </div>
+
+  <div class="grid-3" style="margin-top: 24px;">
+    <div class="problem-card">
+      <div class="icon-circle-lg">
+        <svg width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="#0aa1d0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="m8 11 2-2 2 2 3-3"/></svg>
+      </div>
+      <h3>Rozproszenie ofert</h3>
+      <p>Nauczyciele szukają po internecie, social mediach i poleceniach. Brak jednego zaufanego źródła.</p>
+    </div>
+    <div class="problem-card">
+      <div class="icon-circle-lg">
+        <svg width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="#0aa1d0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+      </div>
+      <h3>Weryfikacja jakości</h3>
+      <p>Nie wiadomo, kogo się zamawia. Brak systemu opinii, ocen i weryfikacji organizatorów.</p>
+    </div>
+    <div class="problem-card">
+      <div class="icon-circle-lg">
+        <svg width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="#0aa1d0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+      </div>
+      <h3>Czasochłonny proces</h3>
+      <p>Telefony, maile, ustalenia terminów i cen. Organizacja jednego wydarzenia to godziny pracy.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<!-- SLAJD 2 — JAK EDUVENT UPRASZCZA ORGANIZACJĘ                  -->
+<!-- ============================================================ -->
+<section>
+  <div class="logo-header">eduvent</div>
+  <h2 style="font-size: 1.25em;">Jak Eduvent upraszcza organizację wydarzeń</h2>
+  <p style="font-size: 0.65em; color: var(--eduvent-gray); text-align: center; margin-top: -0.1em;">Od wielu kontaktów do jednego, przejrzystego procesu</p>
+
+  <div class="grid-2" style="margin-top: 28px; gap: 36px; align-items: stretch;">
+    <!-- DZIŚ -->
+    <div class="card" style="background: #f0efed; padding: 34px 32px; border-radius: 18px;">
+      <h3 style="color: var(--eduvent-dark); font-size: 0.9em; text-align: center; margin-bottom: 14px;">DZIŚ</h3>
+      <p style="font-size: 0.6em; text-align: left; line-height: 1.6;">Każdy nauczyciel samodzielnie szuka organizatorów, kontaktuje się z nimi i porównuje niepełne oferty.</p>
+
+      <svg width="100%" height="190" viewBox="0 0 400 190" style="display: block; margin: 12px auto 18px;">
+        <defs><clipPath id="cp1"><circle r="16"/></clipPath></defs>
+        <!-- Nauczyciele (simple head+shoulders) -->
+        <g transform="translate(65,32)"><circle r="18" fill="#e2e0dc"/><circle cy="-5" r="6.5" fill="#b0ada8"/><rect x="-10" y="3" width="20" height="10" rx="5" fill="#b0ada8"/></g>
+        <g transform="translate(200,32)"><circle r="18" fill="#e2e0dc"/><circle cy="-5" r="6.5" fill="#b0ada8"/><rect x="-10" y="3" width="20" height="10" rx="5" fill="#b0ada8"/></g>
+        <g transform="translate(335,32)"><circle r="18" fill="#e2e0dc"/><circle cy="-5" r="6.5" fill="#b0ada8"/><rect x="-10" y="3" width="20" height="10" rx="5" fill="#b0ada8"/></g>
+        <!-- Firmy -->
+        <rect x="25" y="140" width="80" height="30" rx="8" fill="#fff3d6" stroke="#dcc06a" stroke-width="1.2"/>
+        <text x="65" y="160" text-anchor="middle" fill="#535353" font-size="11" font-family="Poppins" font-weight="500">Firma</text>
+        <rect x="160" y="140" width="80" height="30" rx="8" fill="#fff3d6" stroke="#dcc06a" stroke-width="1.2"/>
+        <text x="200" y="160" text-anchor="middle" fill="#535353" font-size="11" font-family="Poppins" font-weight="500">Firma</text>
+        <rect x="295" y="140" width="80" height="30" rx="8" fill="#fff3d6" stroke="#dcc06a" stroke-width="1.2"/>
+        <text x="335" y="160" text-anchor="middle" fill="#535353" font-size="11" font-family="Poppins" font-weight="500">Firma</text>
+        <!-- Chaotic lines -->
+        <g stroke="#c8c5c0" stroke-width="1">
+          <line x1="65" y1="50" x2="65" y2="140"/><line x1="65" y1="50" x2="200" y2="140"/><line x1="65" y1="50" x2="335" y2="140"/>
+          <line x1="200" y1="50" x2="65" y2="140"/><line x1="200" y1="50" x2="200" y2="140"/><line x1="200" y1="50" x2="335" y2="140"/>
+          <line x1="335" y1="50" x2="65" y2="140"/><line x1="335" y1="50" x2="200" y2="140"/><line x1="335" y1="50" x2="335" y2="140"/>
+        </g>
+      </svg>
+
+      <ul style="margin: 0;">
+        <li style="font-size: 0.58em;">wiele telefonów i wiadomości</li>
+        <li style="font-size: 0.58em;">brak jednego miejsca z ofertami</li>
+        <li style="font-size: 0.58em;">czasochłonne porównywanie warunków</li>
+      </ul>
+    </div>
+
+    <!-- Z EDUVENTEM -->
+    <div class="card" style="background: var(--eduvent-cyan-light); padding: 34px 32px; border-radius: 18px;">
+      <h3 style="color: var(--eduvent-dark); font-size: 0.9em; text-align: center; margin-bottom: 14px;">Z EDUVENTEM</h3>
+      <p style="font-size: 0.6em; text-align: left; line-height: 1.6;">Nauczyciel znajduje odpowiednią ofertę, wysyła zapytanie i zarządza organizacją wydarzenia w jednym miejscu.</p>
+
+      <svg width="100%" height="190" viewBox="0 0 400 190" style="display: block; margin: 12px auto 18px;">
+        <!-- Nauczyciele -->
+        <g transform="translate(65,32)"><circle r="18" fill="#d4f0f7"/><circle cy="-5" r="6.5" fill="#0aa1d0"/><rect x="-10" y="3" width="20" height="10" rx="5" fill="#0aa1d0"/></g>
+        <g transform="translate(200,32)"><circle r="18" fill="#d4f0f7"/><circle cy="-5" r="6.5" fill="#0aa1d0"/><rect x="-10" y="3" width="20" height="10" rx="5" fill="#0aa1d0"/></g>
+        <g transform="translate(335,32)"><circle r="18" fill="#d4f0f7"/><circle cy="-5" r="6.5" fill="#0aa1d0"/><rect x="-10" y="3" width="20" height="10" rx="5" fill="#0aa1d0"/></g>
+        <!-- Eduvent hub -->
+        <rect x="130" y="82" width="140" height="34" rx="17" fill="#0aa1d0"/>
+        <text x="200" y="104" text-anchor="middle" fill="white" font-size="15" font-family="Poppins" font-weight="700">eduvent</text>
+        <!-- Firmy -->
+        <rect x="25" y="145" width="80" height="30" rx="8" fill="white" stroke="#dcc06a" stroke-width="1.2"/>
+        <text x="65" y="165" text-anchor="middle" fill="#535353" font-size="11" font-family="Poppins" font-weight="500">Firma</text>
+        <rect x="160" y="145" width="80" height="30" rx="8" fill="white" stroke="#dcc06a" stroke-width="1.2"/>
+        <text x="200" y="165" text-anchor="middle" fill="#535353" font-size="11" font-family="Poppins" font-weight="500">Firma</text>
+        <rect x="295" y="145" width="80" height="30" rx="8" fill="white" stroke="#dcc06a" stroke-width="1.2"/>
+        <text x="335" y="165" text-anchor="middle" fill="#535353" font-size="11" font-family="Poppins" font-weight="500">Firma</text>
+        <!-- Lines: teachers -> hub -->
+        <g stroke="#0aa1d0" stroke-width="1.5" opacity="0.4">
+          <line x1="65" y1="50" x2="165" y2="82"/><line x1="200" y1="50" x2="200" y2="82"/><line x1="335" y1="50" x2="235" y2="82"/>
+          <line x1="165" y1="116" x2="65" y2="145"/><line x1="200" y1="116" x2="200" y2="145"/><line x1="235" y1="116" x2="335" y2="145"/>
+        </g>
+      </svg>
+
+      <ul style="margin: 0;">
+        <li style="font-size: 0.58em;">uporządkowana baza ofert</li>
+        <li style="font-size: 0.58em;">łatwe porównanie możliwości</li>
+        <li style="font-size: 0.58em;">prostszy kontakt i rezerwacja</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Efekt dla miasta -->
+  <div style="margin-top: 24px; text-align: center;">
+    <p style="font-size: 0.6em; font-weight: 600; color: var(--eduvent-dark); margin: 0;">
+      Efekt dla miasta: łatwiejszy dostęp szkół do lokalnej oferty edukacyjnej i mniej pracy organizacyjnej po stronie nauczycieli.
+    </p>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<!-- SLAJD 3 — JAK SZKOŁA REZERWUJE WYDARZENIE                    -->
+<!-- ============================================================ -->
+<section>
+  <div class="logo-header">eduvent</div>
+  <h2 style="font-size: 1.15em; margin-top: 10px;">Jak szkoła znajduje i rezerwuje wydarzenie</h2>
+  <p style="font-size: 0.62em; color: var(--eduvent-gray); text-align: center; margin-top: -0.1em;">Cały proces organizacji — od wyszukania oferty do rezerwacji — w jednym miejscu</p>
+
+  <div style="display: grid; grid-template-columns: 5fr 6fr; gap: 50px; margin-top: 30px; align-items: center;">
+    <div>
+      <img src="images/eduvent1_page03_img01_800x577.png" alt="Wyszukiwarka Eduvent" class="screenshot" style="width: 100%;">
+      <p style="font-size: 0.52em; text-align: center; margin-top: 12px; font-weight: 500; color: var(--eduvent-gray-light);">Przejrzyste wyszukiwanie i porównywanie ofert</p>
+    </div>
+    <div>
+      <!-- Krok 1 -->
+      <div style="display: flex; gap: 18px; align-items: flex-start; margin-bottom: 28px;">
+        <div style="width: 42px; height: 42px; border-radius: 50%; background: var(--eduvent-cyan); color: white; display: flex; align-items: center; justify-content: center; font-size: 0.6em; font-weight: 700; flex-shrink: 0;">1</div>
+        <div>
+          <p style="font-size: 0.72em; font-weight: 700; color: var(--eduvent-dark); margin: 0 0 4px 0;">Znajdź odpowiednią ofertę</p>
+          <p style="font-size: 0.58em; margin: 0; line-height: 1.55;">Wyszukiwanie według lokalizacji, kategorii, grupy wiekowej i rodzaju wydarzenia.</p>
+        </div>
+      </div>
+      <!-- Krok 2 -->
+      <div style="display: flex; gap: 18px; align-items: flex-start; margin-bottom: 28px;">
+        <div style="width: 42px; height: 42px; border-radius: 50%; background: var(--eduvent-cyan); color: white; display: flex; align-items: center; justify-content: center; font-size: 0.6em; font-weight: 700; flex-shrink: 0;">2</div>
+        <div>
+          <p style="font-size: 0.72em; font-weight: 700; color: var(--eduvent-dark); margin: 0 0 4px 0;">Porównaj dostępne propozycje</p>
+          <p style="font-size: 0.58em; margin: 0; line-height: 1.55;">Opis, cena, termin, czas trwania i najważniejsze warunki — wszystko w jednym widoku.</p>
+        </div>
+      </div>
+      <!-- Krok 3 -->
+      <div style="display: flex; gap: 18px; align-items: flex-start; margin-bottom: 28px;">
+        <div style="width: 42px; height: 42px; border-radius: 50%; background: var(--eduvent-cyan); color: white; display: flex; align-items: center; justify-content: center; font-size: 0.6em; font-weight: 700; flex-shrink: 0;">3</div>
+        <div>
+          <p style="font-size: 0.72em; font-weight: 700; color: var(--eduvent-dark); margin: 0 0 4px 0;">Zarezerwuj i zarządzaj organizacją</p>
+          <p style="font-size: 0.58em; margin: 0; line-height: 1.55;">Kontakt z organizatorem, potwierdzenie ustaleń i obsługa rezerwacji w jednym panelu.</p>
+        </div>
+      </div>
+
+      <p style="font-size: 0.55em; color: var(--eduvent-gray-light); margin: 0 0 16px 0; line-height: 1.6;">
+        Oferta obejmuje m.in. teatr, warsztaty, robotykę, sport, profilaktykę, ekologię i muzykę — dla placówek na każdym etapie edukacji.
+      </p>
+
+      <div style="background: var(--eduvent-cyan-light); border-radius: 12px; padding: 16px 20px;">
+        <p style="font-size: 0.52em; font-weight: 600; color: var(--eduvent-dark); margin: 0; line-height: 1.5;">
+          Na każdym etapie nauczyciel ma pełne wsparcie Eduvent — od pomocy w wyborze oferty, przez kontakt z organizatorem, po obsługę rezerwacji i rozliczenie.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<!-- SLAJD 4 — PIERWSZY ROK W LICZBACH                            -->
+<!-- ============================================================ -->
+<section>
+  <div class="logo-header">eduvent</div>
+  <h2 style="font-size: 1.25em;">Pierwszy rok Eduventu w liczbach</h2>
+  <p style="font-size: 0.62em; color: var(--eduvent-gray); text-align: center; margin-top: -0.1em;">Rok szkolny 2025/2026</p>
+
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-top: 36px;">
+    <!-- Lewa kolumna -->
+    <div>
+      <p style="font-size: 0.6em; font-weight: 700; color: var(--eduvent-dark); margin: 0 0 20px 0; text-transform: uppercase; letter-spacing: 0.5px;">Zbudowany ekosystem</p>
+
+      <div class="stat-pill" style="margin-bottom: 16px;">
+        <div class="stat-number">80+</div>
+        <div class="stat-label">placówek korzystających z platformy</div>
+      </div>
+      <div class="stat-pill" style="margin-bottom: 16px;">
+        <div class="stat-number">80</div>
+        <div class="stat-label">organizatorów zajęć i wydarzeń</div>
+      </div>
+      <div class="stat-pill" style="margin-bottom: 16px;">
+        <div class="stat-number">300</div>
+        <div class="stat-label">aktywnych ofert edukacyjnych</div>
+      </div>
+
+      <div class="highlight-box" style="margin-top: 20px; padding: 22px 28px; border-radius: 14px;">
+        <div style="font-size: 1.4em; font-weight: 700;">ponad 86 tys. zł</div>
+        <div style="font-size: 0.58em; opacity: 0.85; font-weight: 500;">wartości zrealizowanych rezerwacji</div>
+      </div>
+    </div>
+
+    <!-- Prawa kolumna -->
+    <div>
+      <p style="font-size: 0.6em; font-weight: 700; color: var(--eduvent-dark); margin: 0 0 20px 0; text-transform: uppercase; letter-spacing: 0.5px;">Potwierdzone zainteresowanie</p>
+
+      <div class="card" style="padding: 28px 30px; margin-bottom: 18px;">
+        <p style="font-size: 0.85em; font-weight: 700; color: var(--eduvent-cyan); margin: 0 0 6px 0;">100% pozytywnych opinii</p>
+        <p style="font-size: 0.58em; margin: 0; line-height: 1.6;">Wszystkie otrzymane opinie od placówek i organizatorów były pozytywne.</p>
+      </div>
+
+      <div class="card" style="padding: 28px 30px; margin-bottom: 18px;">
+        <p style="font-size: 0.85em; font-weight: 700; color: var(--eduvent-cyan); margin: 0 0 6px 0;">100+ placówek</p>
+        <p style="font-size: 0.58em; margin: 0; line-height: 1.6;">zainteresowanych współpracą w kolejnym roku szkolnym.</p>
+      </div>
+
+      <div class="card" style="padding: 28px 30px; background: var(--eduvent-cyan-light);">
+        <p style="font-size: 0.58em; font-weight: 600; color: var(--eduvent-dark); margin: 0; line-height: 1.6;">
+          Platforma została wykorzystana do realnej organizacji wydarzeń edukacyjnych — nie jest tylko katalogiem ofert.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<!-- SLAJD 5 — SKALA RYNKU I POTENCJAŁ DLA WROCŁAWIA              -->
+<!-- ============================================================ -->
+<section style="padding: 44px 90px 30px;">
+  <div class="logo-header">eduvent</div>
+  <h2 style="font-size: 1.15em; margin-top: 8px; margin-bottom: 0.15em;">Skala rynku i potencjał dla Wrocławia</h2>
+  <p style="font-size: 0.55em; color: var(--eduvent-gray); text-align: center; margin: 0;">Sektor edukacji i wydarzeń dodatkowych</p>
+
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 36px; margin-top: 22px;">
+    <!-- Lewa: skala systemu -->
+    <div>
+      <p style="font-size: 0.52em; font-weight: 700; color: var(--eduvent-dark); margin: 0 0 12px 0; text-transform: uppercase; letter-spacing: 0.5px;">Skala systemu w Polsce</p>
+
+      <div class="stat-pill" style="margin-bottom: 10px; padding: 16px 22px;">
+        <div class="stat-number" style="font-size: 1.3em;">6,7 mln</div>
+        <div class="stat-label" style="font-size: 0.55em;">dzieci, młodzieży i dorosłych w placówkach oświatowych</div>
+      </div>
+      <div class="stat-pill" style="margin-bottom: 10px; padding: 16px 22px;">
+        <div class="stat-number" style="font-size: 1.3em;">508,3 tys.</div>
+        <div class="stat-label" style="font-size: 0.55em;">nauczycieli w przeliczeniu na pełne etaty</div>
+      </div>
+      <div class="stat-pill" style="padding: 16px 22px;">
+        <div class="stat-number" style="font-size: 1.1em;">blisko 43 tys.</div>
+        <div class="stat-label" style="font-size: 0.55em;">placówek wychowania przedszkolnego oraz szkół</div>
+      </div>
+    </div>
+
+    <!-- Prawa: popyt i wydatki -->
+    <div>
+      <p style="font-size: 0.52em; font-weight: 700; color: var(--eduvent-dark); margin: 0 0 12px 0; text-transform: uppercase; letter-spacing: 0.5px;">Popyt i wydatki</p>
+
+      <div class="card" style="padding: 16px 22px; margin-bottom: 10px;">
+        <p style="font-size: 0.78em; font-weight: 700; color: var(--eduvent-cyan); margin: 0 0 3px 0;">72% dzieci</p>
+        <p style="font-size: 0.5em; margin: 0; line-height: 1.5;">uczestniczy w płatnych zajęciach i wydarzeniach dodatkowych organizowanych w szkole i poza nią. Tendencja wzrostowa od 2013 roku.</p>
+      </div>
+      <div class="card" style="padding: 16px 22px; margin-bottom: 10px;">
+        <p style="font-size: 0.78em; font-weight: 700; color: var(--eduvent-cyan); margin: 0 0 3px 0;">629 zł / miesiąc</p>
+        <p style="font-size: 0.5em; margin: 0; line-height: 1.5;">średni wydatek rodziców na zajęcia dodatkowe na jedno dziecko w roku szkolnym 2023/2024.</p>
+      </div>
+      <div class="card" style="padding: 16px 22px;">
+        <p style="font-size: 0.78em; font-weight: 700; color: var(--eduvent-cyan); margin: 0 0 3px 0;">2 261 zł / rok</p>
+        <p style="font-size: 0.5em; margin: 0; line-height: 1.5;">średni koszyk zakupowy na wydarzenia edukacyjne we Wrocławiu.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Dolny banner: Wrocław -->
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0; margin-top: 20px; border-radius: 14px; overflow: hidden;">
+    <div style="background: linear-gradient(135deg, #0aaee1 0%, #0c7b9d 100%); padding: 22px 28px; color: white;">
+      <div style="font-size: 1.4em; font-weight: 700; line-height: 1;">93 967 uczniów</div>
+      <div style="font-size: 0.55em; font-weight: 600; margin-top: 5px;">we wrocławskiej sieci oświatowej</div>
+      <p style="font-size: 0.45em; color: rgba(255,255,255,0.8); margin: 8px 0 0 0; line-height: 1.45;">300 szkół i placówek prowadzonych przez Gminę Wrocław tworzy dużą, rozproszoną sieć odbiorców oferty edukacyjnej.</p>
+    </div>
+    <div style="background: white; padding: 20px 28px;">
+      <p style="font-size: 0.55em; font-weight: 700; color: var(--eduvent-dark); margin: 0 0 10px 0;">Wrocławska edukacja w liczbach</p>
+      <div style="display: flex; flex-direction: column; gap: 5px;">
+        <p style="font-size: 0.48em; margin: 0; color: var(--eduvent-gray);"><strong style="color: var(--eduvent-cyan); font-size: 1.15em;">49 329</strong> &nbsp;uczniów szkół podstawowych</p>
+        <p style="font-size: 0.48em; margin: 0; color: var(--eduvent-gray);"><strong style="color: var(--eduvent-cyan); font-size: 1.15em;">31 202</strong> &nbsp;uczniów szkół ponadpodstawowych</p>
+        <p style="font-size: 0.48em; margin: 0; color: var(--eduvent-gray);"><strong style="color: var(--eduvent-cyan); font-size: 1.15em;">31 804</strong> &nbsp;miejsca w placówkach przedszkolnych</p>
+      </div>
+    </div>
+  </div>
+
+  <p style="font-size: 0.36em; color: var(--eduvent-gray-light); text-align: center; margin: 8px 0 0 0;">Źródła: GUS 2025/2026, Raport o stanie Gminy Wrocław 2025, SIO, CBOS 2023/2024, dane Eduvent.</p>
+</section>
+
+<!-- ============================================================ -->
+<!-- SLAJD 6 — NASZ ZESPÓŁ                                        -->
+<!-- ============================================================ -->
+<section>
+  <div class="logo-header">eduvent</div>
+  <h2>Nasz zespół</h2>
+
+  <div class="grid-4" style="margin-top: 50px;">
+    <div class="card team-member" style="padding: 32px 20px;">
+      <img src="images/eduvent1_page08_img03_360x640.png" alt="Piotr Ramotowski" style="width: 140px; height: 140px; border-radius: 50%; object-fit: cover; object-position: center 15%; border: 5px solid var(--eduvent-cyan); display: block; margin: 0 auto 16px; box-shadow: 6px 6px 16px rgba(0,0,0,0.08);">
+      <div class="name">Piotr Ramotowski</div>
+      <div class="role">Biznes</div>
+      <div class="bio">10 lat w branży edukacyjnej. Sprzedaż roczna 1,2 mln zł. Kampanie Meta ADS, rozwój platformy, obsługa klienta.</div>
+    </div>
+    <div class="card team-member" style="padding: 32px 20px;">
+      <img src="images/eduvent1_page08_img01_372x560.png" alt="Kornel Mrozek" style="width: 140px; height: 140px; border-radius: 50%; object-fit: cover; object-position: center 15%; border: 5px solid var(--eduvent-cyan); display: block; margin: 0 auto 16px; box-shadow: 6px 6px 16px rgba(0,0,0,0.08);">
+      <div class="name">Kornel Mrozek</div>
+      <div class="role">Technologia</div>
+      <div class="bio">10 lat jako programista. Scala, Kubernetes, Kafka. Rozwój platformy, skalowalność i niezawodność systemu.</div>
+    </div>
+    <div class="card team-member" style="padding: 32px 20px;">
+      <img src="images/eduvent1_page08_img02_372x560.png" alt="Marcin Porzuczek" style="width: 140px; height: 140px; border-radius: 50%; object-fit: cover; object-position: center 15%; border: 5px solid var(--eduvent-cyan); display: block; margin: 0 auto 16px; box-shadow: 6px 6px 16px rgba(0,0,0,0.08);">
+      <div class="name">Marcin Porzuczek</div>
+      <div class="role">Biznes</div>
+      <div class="bio">Przedsiębiorca od 2016. Pozyskiwanie firm, poszukiwanie finansowania na dalszy rozwój projektu.</div>
+    </div>
+    <div class="card team-member" style="padding: 32px 20px;">
+      <div class="photo-frame" style="width: 140px; height: 140px;">K</div>
+      <div class="name">Karol Węgrzyniak</div>
+      <div class="role">Marketing</div>
+      <div class="bio">Założyciel Data-Driven Expert. Specjalista PPC, analityka, automatyzacja AI. Strategia digitalowa oparta na danych.</div>
+    </div>
+  </div>
+
+  <div style="text-align: center; margin-top: 36px;">
+    <span class="tag" style="font-size: 0.65em;">10 lat w edukacji</span>
+    <span class="tag" style="font-size: 0.65em;">10 lat w technologii</span>
+    <span class="tag" style="font-size: 0.65em;">Doświadczenie w skalowaniu biznesu</span>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<!-- SLAJD 7 — CO MOŻEMY ZROBIĆ DLA MIASTA                        -->
+<!-- ============================================================ -->
+<section style="padding: 44px 90px 30px;">
+  <div class="logo-header">eduvent</div>
+  <h2 style="font-size: 1.2em; margin-top: 8px; margin-bottom: 0.15em;">Co możemy zrobić dla miasta</h2>
+  <p style="font-size: 0.58em; color: var(--eduvent-gray); text-align: center; margin: 0;">Trzy konkretne kierunki współpracy ze szkołami i lokalnym środowiskiem edukacyjnym</p>
+  <p style="font-size: 0.48em; color: var(--eduvent-gray-light); text-align: center; max-width: 800px; margin: 6px auto 0; line-height: 1.5;">Na start proponujemy działania, które można wdrożyć niezależnie lub połączyć w szerszy program miejski.</p>
+
+  <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 32px; margin-top: 32px;">
+    <!-- Karta 1: Warsztaty -->
+    <div class="card" style="padding: 36px 28px; text-align: center;">
+      <img src="images/icon_warsztaty.png" alt="" style="width: 200px; height: 200px; margin: 0 auto 20px; display: block;">
+      <p style="font-size: 0.72em; font-weight: 700; color: var(--eduvent-dark); margin: 0 0 10px 0; text-transform: uppercase; letter-spacing: 0.3px;">Warsztaty<br>profilaktyczne</p>
+      <p style="font-size: 0.5em; margin: 0; line-height: 1.6; text-align: center;">Cykle bezpłatnych lub współfinansowanych zajęć dla uczniów, nauczycieli i rodziców.</p>
+    </div>
+
+    <!-- Karta 2: Program korzyści -->
+    <div class="card" style="padding: 36px 28px; text-align: center;">
+      <img src="images/icon_szkoly.png" alt="" style="width: 200px; height: 200px; margin: 0 auto 20px; display: block;">
+      <p style="font-size: 0.72em; font-weight: 700; color: var(--eduvent-dark); margin: 0 0 10px 0; text-transform: uppercase; letter-spacing: 0.3px;">Program korzyści<br>dla szkół</p>
+      <p style="font-size: 0.5em; margin: 0; line-height: 1.6; text-align: center;">Model współpracy, dzięki któremu część wartości generowanej przez platformę wraca do placówek.</p>
+    </div>
+
+    <!-- Karta 3: Projekty miejskie -->
+    <div class="card" style="padding: 36px 28px; text-align: center;">
+      <img src="images/icon_projekty.png" alt="" style="width: 200px; height: 200px; margin: 0 auto 20px; display: block;">
+      <p style="font-size: 0.72em; font-weight: 700; color: var(--eduvent-dark); margin: 0 0 10px 0; text-transform: uppercase; letter-spacing: 0.3px;">Miejskie projekty<br>edukacyjne</p>
+      <p style="font-size: 0.5em; margin: 0; line-height: 1.6; text-align: center;">Koncepcje wydarzeń, konkursów i inicjatyw angażujących szkoły z lokalnych partnerów.</p>
+    </div>
+  </div>
+
+  <!-- Dolny banner -->
+  <div style="margin-top: 28px; border-radius: 14px; overflow: hidden; background: linear-gradient(135deg, #0aaee1 0%, #0c7b9d 100%); padding: 22px 36px; text-align: center;">
+    <p style="font-size: 0.55em; font-weight: 600; margin: 0; line-height: 1.5; color: white;">
+      Każdy obszar może działać samodzielnie lub jako część szerszego programu miejskiego.
+    </p>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<!-- SLAJD 8 — PROGRAM WARSZTATÓW                                 -->
+<!-- ============================================================ -->
+<section style="padding: 44px 90px 30px;">
+  <div class="logo-header">eduvent</div>
+  <h2 style="font-size: 1.1em; margin-top: 8px; margin-bottom: 0.15em;">Program warsztatów dla wrocławskich placówek</h2>
+  <p style="font-size: 0.58em; color: var(--eduvent-cyan); text-align: center; margin: 0; font-weight: 600;">Kompetencje cyfrowe, bezpieczeństwo i dobrostan uczniów</p>
+  <p style="font-size: 0.46em; color: var(--eduvent-gray-light); text-align: center; max-width: 800px; margin: 6px auto 0; line-height: 1.5;">Dwa uzupełniające się obszary działań, które można wdrożyć pod patronatem miasta lub połączyć w szerszy program dla placówek.</p>
+
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin-top: 22px;">
+    <!-- AI i kompetencje cyfrowe -->
+    <div class="card" style="padding: 26px 28px;">
+      <p style="font-size: 0.78em; font-weight: 700; color: var(--eduvent-dark); margin: 0 0 14px 0; text-transform: uppercase; letter-spacing: 0.3px;">AI i kompetencje cyfrowe</p>
+      <p style="font-size: 0.5em; margin: 0 0 12px 0; line-height: 1.5;">Praktyczne warsztaty przygotowujące uczniów i kadrę pedagogiczną do odpowiedzialnego korzystania z nowych technologii.</p>
+      <p style="font-size: 0.48em; font-weight: 600; color: var(--eduvent-dark); margin: 0 0 6px 0;">Przykładowe moduły:</p>
+      <div style="display: flex; flex-direction: column; gap: 4px;">
+        <p style="font-size: 0.48em; margin: 0; color: var(--eduvent-gray);">sztuczna inteligencja — szanse, ograniczenia i ryzyka</p>
+        <p style="font-size: 0.48em; margin: 0; color: var(--eduvent-gray);">krytyczna ocena informacji i rozpoznawanie manipulacji</p>
+        <p style="font-size: 0.48em; margin: 0; color: var(--eduvent-gray);">cyberbezpieczeństwo i higiena cyfrowa</p>
+        <p style="font-size: 0.48em; margin: 0; color: var(--eduvent-gray);">AI w pracy nauczyciela</p>
+        <p style="font-size: 0.48em; margin: 0; color: var(--eduvent-gray);">edukacja i rozwój zawodowy w świecie AI</p>
+      </div>
+    </div>
+
+    <!-- Profilaktyka i dobrostan -->
+    <div class="card" style="padding: 26px 28px;">
+      <p style="font-size: 0.78em; font-weight: 700; color: var(--eduvent-dark); margin: 0 0 14px 0; text-transform: uppercase; letter-spacing: 0.3px;">Profilaktyka i dobrostan</p>
+      <p style="font-size: 0.5em; margin: 0 0 12px 0; line-height: 1.5;">Warsztaty odpowiadające na najczęstsze problemy społeczne i wychowawcze zgłaszane przez placówki.</p>
+      <p style="font-size: 0.48em; font-weight: 600; color: var(--eduvent-dark); margin: 0 0 6px 0;">Przykładowe moduły:</p>
+      <div style="display: flex; flex-direction: column; gap: 4px;">
+        <p style="font-size: 0.48em; margin: 0; color: var(--eduvent-gray);">hejt i przemoc rówieśnicza</p>
+        <p style="font-size: 0.48em; margin: 0; color: var(--eduvent-gray);">zdrowie psychiczne i reagowanie na kryzysy</p>
+        <p style="font-size: 0.48em; margin: 0; color: var(--eduvent-gray);">profilaktyka uzależnień</p>
+        <p style="font-size: 0.48em; margin: 0; color: var(--eduvent-gray);">bezpieczeństwo w kontaktach z obcymi</p>
+        <p style="font-size: 0.48em; margin: 0; color: var(--eduvent-gray);">tolerancja, relacje i odpowiedzialność społeczna</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Banner -->
+  <div style="margin-top: 18px; border-radius: 12px; background: linear-gradient(135deg, #0aaee1 0%, #0c7b9d 100%); padding: 16px 28px;">
+    <p style="font-size: 0.48em; font-weight: 600; margin: 0; text-align: center; color: white;">
+      <strong>Proponowany model współpracy:</strong> Eduvent przygotowuje program i organizuje realizację &bull; miasto obejmuje patronatem i pomaga dotrzeć do placówek &bull; wspólnie szukamy źródeł finansowania
+    </p>
+  </div>
+  <p style="font-size: 0.34em; color: var(--eduvent-gray-light); text-align: center; margin: 6px 0 0 0;">Odniesienie: MEN — „Cyfrowy Uczeń" 2025–2029; kierunki polityki oświatowej 2025/2026 dotyczące higieny cyfrowej, bezpieczeństwa w sieci i odpowiedzialnego wykorzystania AI.</p>
+</section>
+
+<!-- ============================================================ -->
+<!-- SLAJD 9 — GOTOWE PROJEKTY EDUKACYJNE                         -->
+<!-- ============================================================ -->
+<section style="padding: 44px 90px 30px;">
+  <div class="logo-header">eduvent</div>
+  <h2 style="font-size: 1.1em; margin-top: 8px; margin-bottom: 0.15em;">Gotowe projekty edukacyjne dla miasta</h2>
+  <p style="font-size: 0.58em; color: var(--eduvent-cyan); text-align: center; margin: 0; font-weight: 600;">Dwa formaty łączące edukację cyfrową, aktywność uczniów i promocję Wrocławia</p>
+  <p style="font-size: 0.46em; color: var(--eduvent-gray-light); text-align: center; max-width: 800px; margin: 6px auto 0; line-height: 1.5;">Projekty mogą działać jako jednorazowe wydarzenia pod patronatem miasta lub jako cykl dla wybranych placówek.</p>
+
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin-top: 22px;">
+    <!-- AI Detektywi -->
+    <div class="card" style="padding: 26px 28px;">
+      <p style="font-size: 0.78em; font-weight: 700; color: var(--eduvent-dark); margin: 0 0 2px 0;">„AI Detektywi"</p>
+      <p style="font-size: 0.5em; color: var(--eduvent-cyan); font-weight: 600; margin: 0 0 14px 0;">Gra miejska lub szkolny escape room</p>
+      <p style="font-size: 0.48em; font-weight: 600; color: var(--eduvent-dark); margin: 0 0 4px 0;">Na czym polega?</p>
+      <p style="font-size: 0.48em; margin: 0 0 12px 0; line-height: 1.55;">Uczniowie rozwiązują sprawę związaną z cyfrowym zagrożeniem: deepfake'em, phishingiem, fałszywym profilem, zmanipulowanym materiałem albo próbą wyłudzenia danych.</p>
+      <p style="font-size: 0.46em; font-weight: 600; color: var(--eduvent-dark); margin: 0 0 3px 0;">Wartość dla miasta</p>
+      <p style="font-size: 0.46em; margin: 0; line-height: 1.5; color: var(--eduvent-gray);">Praktyczna edukacja cyfrowa zamiast pogadanki: rozgrywka, finał, dyplomy, prezentacja wyników i patronat miasta.</p>
+    </div>
+
+    <!-- AI dla mojego miasta -->
+    <div class="card" style="padding: 26px 28px;">
+      <p style="font-size: 0.78em; font-weight: 700; color: var(--eduvent-dark); margin: 0 0 2px 0;">„AI dla mojego miasta"</p>
+      <p style="font-size: 0.5em; color: var(--eduvent-cyan); font-weight: 600; margin: 0 0 14px 0;">Konkurs na pomysły rozwiązujące lokalne problemy</p>
+      <p style="font-size: 0.48em; font-weight: 600; color: var(--eduvent-dark); margin: 0 0 4px 0;">Na czym polega?</p>
+      <p style="font-size: 0.48em; margin: 0 0 12px 0; line-height: 1.55;">Zespoły uczniowskie projektują odpowiedzialne zastosowania AI dla Wrocławia: transportu, zieleni, bezpieczeństwa, dostępności, pomocy seniorom lub komunikacji z mieszkańcami.</p>
+      <p style="font-size: 0.46em; font-weight: 600; color: var(--eduvent-dark); margin: 0 0 3px 0;">Wartość dla miasta</p>
+      <p style="font-size: 0.46em; margin: 0; line-height: 1.5; color: var(--eduvent-gray);">Uczniowie pracują na realnych wyzwaniach miasta, a finał można zorganizować z udziałem ekspertów, władz i lokalnych mediów.</p>
+    </div>
+  </div>
+
+  <!-- Banner -->
+  <div style="margin-top: 18px; border-radius: 12px; background: linear-gradient(135deg, #0aaee1 0%, #0c7b9d 100%); padding: 16px 28px;">
+    <p style="font-size: 0.48em; font-weight: 600; margin: 0; text-align: center; color: white;">
+      Dwa różne formaty, wspólny efekt: uczniowie nie tylko zdobywają wiedzę, ale wykorzystują ją do działania.
+    </p>
+  </div>
+  <p style="font-size: 0.34em; color: var(--eduvent-gray-light); text-align: center; margin: 6px 0 0 0;">Odniesienie: CYBERTRON 2025 — grywal.sesja z cyberbezpieczeństwa; Digital Wizards 2025/2026 — konkurs obejmujący AI i higienę cyfrową; Olimpiada AI we Wrocławiu.</p>
+</section>
+
+<!-- ============================================================ -->
+<!-- SLAJD 10 — PILOTAŻ I MIERZALNY EFEKT                         -->
+<!-- ============================================================ -->
+<section style="padding: 44px 90px 30px;">
+  <div class="logo-header">eduvent</div>
+  <h2 style="font-size: 1.1em; margin-top: 8px; margin-bottom: 0.15em;">Pilotaż i mierzalny efekt dla miasta</h2>
+  <p style="font-size: 0.58em; color: var(--eduvent-cyan); text-align: center; margin: 0; font-weight: 600;">Każde działanie kończy się podsumowaniem wyników i rekomendacjami</p>
+  <p style="font-size: 0.46em; color: var(--eduvent-gray-light); text-align: center; max-width: 850px; margin: 6px auto 0; line-height: 1.5;">Od pierwszej edycji projekt można prowadzić w sposób uporządkowany: wdrożyć, zmierzyć, podsumować i zdecydować o skalowaniu.</p>
+
+  <!-- 4 kroki -->
+  <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 24px; margin-top: 28px;">
+    <div style="text-align: center;">
+      <img src="images/icon_pilotaz.png" alt="" style="width: 130px; height: 130px; margin: 0 auto 14px; display: block;">
+      <p style="font-size: 0.7em; font-weight: 700; color: var(--eduvent-dark); margin: 0 0 6px 0; text-transform: uppercase;">Pilotaż</p>
+      <p style="font-size: 0.45em; margin: 0; line-height: 1.5; color: var(--eduvent-gray);">Realizacja warsztatu lub projektu w wybranej grupie wrocławskich placówek.</p>
+    </div>
+    <div style="text-align: center;">
+      <img src="images/icon_pomiar.png" alt="" style="width: 130px; height: 130px; margin: 0 auto 14px; display: block;">
+      <p style="font-size: 0.7em; font-weight: 700; color: var(--eduvent-dark); margin: 0 0 6px 0; text-transform: uppercase;">Pomiar</p>
+      <p style="font-size: 0.45em; margin: 0; line-height: 1.5; color: var(--eduvent-gray);">Frekwencja, liczba uczestników, oceny nauczycieli i zainteresowanie tematami.</p>
+    </div>
+    <div style="text-align: center;">
+      <img src="images/icon_raport.png" alt="" style="width: 130px; height: 130px; margin: 0 auto 14px; display: block;">
+      <p style="font-size: 0.7em; font-weight: 700; color: var(--eduvent-dark); margin: 0 0 6px 0; text-transform: uppercase;">Raport</p>
+      <p style="font-size: 0.45em; margin: 0; line-height: 1.5; color: var(--eduvent-gray);">Zasięg, rezultaty, opinie placówek, bariery i rekomendacje dla kolejnej edycji.</p>
+    </div>
+    <div style="text-align: center;">
+      <img src="images/icon_skalowanie.png" alt="" style="width: 130px; height: 130px; margin: 0 auto 14px; display: block;">
+      <p style="font-size: 0.7em; font-weight: 700; color: var(--eduvent-dark); margin: 0 0 6px 0; text-transform: uppercase;">Skalowanie</p>
+      <p style="font-size: 0.45em; margin: 0; line-height: 1.5; color: var(--eduvent-gray);">Decyzja, czy kontynuować, rozszerzać projekt i do których grup go skierować.</p>
+    </div>
+  </div>
+
+  <!-- Dwa boxy na dole -->
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-top: 24px;">
+    <div class="card" style="padding: 20px 24px;">
+      <p style="font-size: 0.6em; font-weight: 700; color: var(--eduvent-dark); margin: 0 0 6px 0;">Co dostaje miasto?</p>
+      <p style="font-size: 0.48em; margin: 0; line-height: 1.55; color: var(--eduvent-gray);">Czytelne podsumowanie efektów + rekomendacje do kolejnej edycji + argumenty do decyzji o finansowaniu i skali programu.</p>
+    </div>
+    <div class="card" style="padding: 20px 24px; background: var(--eduvent-cyan-light);">
+      <p style="font-size: 0.6em; font-weight: 700; color: var(--eduvent-dark); margin: 0 0 6px 0;">Dane zagregowane i anonimowe</p>
+      <p style="font-size: 0.48em; margin: 0; line-height: 1.55; color: var(--eduvent-gray);">Nie chodzi o dane uczniów ani ranking szkół, lecz o wiedzę potrzebną do oceny efektów programu.</p>
+    </div>
+  </div>
+
+  <p style="font-size: 0.34em; color: var(--eduvent-gray-light); text-align: center; margin: 8px 0 0 0;">Odniesienie: podejście spójne z kierunkiem cyfrowej transformacji edukacji — rozwój kompetencji cyfrowych, AI, bezpieczeństwa i realizacji działań.</p>
+</section>
+
+<!-- ============================================================ -->
+<!-- SLAJD 11 — PODSUMOWANIE WARTOŚCI                             -->
+<!-- ============================================================ -->
+<section>
+  <div class="logo-header">eduvent</div>
+  <h2>Podsumowanie</h2>
+  <p class="subtitle">Co zyskują wszystkie strony</p>
+
+  <div class="grid-3" style="margin-top: 40px;">
+    <div class="card value-col">
+      <h3>&#127963;&#65039; Miasto</h3>
+      <ul>
+        <li>Unikalne dane o trendach edukacyjnych</li>
+        <li>Nowoczesny wizerunek — innowacje w edukacji</li>
+        <li>Medialne projekty z udziałem uczniów</li>
+        <li>Dodatkowy kanał komunikacji z placówkami</li>
+      </ul>
+    </div>
+    <div class="card value-col">
+      <h3>&#127979; Szkoły</h3>
+      <ul>
+        <li>Bezpłatna platforma rezerwacji wydarzeń</li>
+        <li>Cashback z programu partnerskiego</li>
+        <li>Oszczędność czasu nauczycieli</li>
+        <li>Zweryfikowani organizatorzy i opinie</li>
+      </ul>
+    </div>
+    <div class="card value-col">
+      <h3>&#127891; Uczniowie</h3>
+      <ul>
+        <li>Lepsze, zweryfikowane wydarzenia edukacyjne</li>
+        <li>Bezpłatne warsztaty profilaktyczne</li>
+        <li>Kompetencje przyszłości (AI, cyber)</li>
+        <li>Projekty angażujące i rozwijające</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<!-- SLAJD 12 — ZAPROSZENIE DO ROZMOWY                            -->
+<!-- ============================================================ -->
+<section>
+  <div class="cta-slide">
+    <div class="logo-big">eduvent</div>
+    <h2>Zapraszamy do rozmowy</h2>
+    <p style="font-size: 0.8em; color: var(--eduvent-gray); max-width: 650px;">
+      Chętnie opowiemy więcej o naszych pomysłach i wspólnie dopasujemy formę współpracy do potrzeb miasta.
+    </p>
+    <div class="contact-info" style="margin-top: 36px;">
+      <p>&#127760; <a href="https://eduvent.pl">eduvent.pl</a></p>
+      <p>&#9993;&#65039; <a href="mailto:kontakt@eduvent.pl">kontakt@eduvent.pl</a></p>
+    </div>
+  </div>
+</section>
+
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+<script>
+  Reveal.initialize({
+    width: 1920,
+    height: 1080,
+    margin: 0,
+    minScale: 0.2,
+    maxScale: 2.0,
+    hash: true,
+    center: true,
+    slideNumber: true,
+    controls: false,
+    progress: false,
+    transition: 'slide',
+    transitionSpeed: 'default',
+  });
+</script>
+</body>
+</html>

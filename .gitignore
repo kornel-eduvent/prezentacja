@@ -1,0 +1,10 @@
+.DS_Store
+.playwright-mcp/
+/*.png
+*.pdf
+extracted_images/
+*.pptx
+build_pptx*.py
+eduvent_slajdy_1_3_program_wspolpracy/
+pptx_slides/
+icons/
